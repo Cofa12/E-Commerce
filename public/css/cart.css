@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#32d5e0;
+    font-family: cursive;
+
+}
+
+.all{
+    width: 51%;
+    height: 930px;
+    background-color: #FFF;
+    margin: auto;
+    margin-top: 46px;
+    border-radius: 23px;
+}
+
+
+.all .products{
+    width: 95%;
+    height: 350px;
+    padding: 30px 0 30px 30px;
+    overflow: auto;
+}
+.products >h2{
+    width: 100%;
+    height: 64px;
+    font-size: 21px;
+}
+
+
+.products >h2 span{
+    color:#32d5e0;
+}
+
+h2 .remove_all_span{
+    float: right;
+    font-size: 15px;
+    margin-right: 13px;
+    color: #ff5959;
+}
+
+.products >h2 button{
+    float: right;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: right;
+    font-size: 13px;
+    margin-right: 13px;
+    color: #ff5959;
+}
+table{
+    width: 93%;
+}
+table .space{
+
+}
+table td{
+    font-family: cursive;
+    height: 105%;
+}
+table .x{
+    width: 72px;
+}
+
+table .x img{
+    width: 22px;
+}
+table .img{
+    width: 20px;
+}
+table .img img{
+    width: 150px;
+}
+table .name{
+    width: 244px;
+    padding-left: 20px;
+    border-bottom: solid 1px #ebdfdf;
+}
+
+table .name span{
+    color: #32d5e0;
+    font-size: 14px;
+}
+table .size{
+    width: 130px;
+
+}
+table .price{
+    width: 190px;
+
+}
+
+.add-Button{
+    width: 100%;
+    height: 34px;
+
+}
+
+.add-Button button{
+    width: 108px;
+    height: 32px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    background-color: #32d5e0;
+    cursor: pointer;
+}
+form{
+    position: relative;
+}
+
+form img{
+    position: absolute;
+    width: 37px;
+    left: -3px;
+    top: 15px;
+}
+.user_info{
+    width: 100%;
+    height: 48%;
+    padding: 22px;
+    margin-top:45px ;
+}
+
+.user_info form label{
+    display: block;
+    font-size: 13px;
+    color: #9a9292;
+}
+
+.user_info form .need{
+    width: 81%;
+    height: 29px;
+    outline: none;
+    border: solid #bdb9b9 1px;
+    padding-left: 37px;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 19px;
+}
+textarea{
+    width: 83%;
+    padding: 10px;
+    resize: none;
+    border: 1;
+    outline: none;
+    border: solid #bdb9b9 1px;
+}
+
+.check_out{
+    display: block;
+    width: 168px;
+    margin: 42px auto 0px;
+    height: 35px;
+    border: none;
+    background-color: #32d5e0;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 17px;
+}

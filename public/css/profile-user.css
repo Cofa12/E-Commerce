@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f7f7f7;
+}
+
+.main
+{
+    width: 100%;
+    height: 305px;
+    background: #32aeb7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main div{
+    width: 291px;
+    height: 277px;
+    text-align: center;
+}
+
+.main div span{
+    display: block;
+    margin-top: 23px;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+.main img{
+        width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 200px;
+    border: solid 2px #FFF;
+    margin: auto;
+    /* margin-top: 20px; */
+    position: relative;
+    top: 12px;
+}
+
+.info{
+    width: 32%;
+    height: 500px;
+    background-color: #FFF;
+    margin-top: 37px;
+    margin-left: 37px;
+    padding: 12px;
+    float: left;
+    margin-bottom: 50px;
+
+}
+
+.info h2{
+    width: 100%;
+    height: 75px;
+    padding: 18px;
+    font-family: cursive;
+}
+
+.info form label{
+    display: block;
+    font-size: 13px;
+    color: #9a9292;
+}
+.info form .need{
+    width: 81%;
+    height: 29px;
+    outline: none;
+    border: solid #bdb9b9 1px;
+    padding-left: 13px;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 21px;
+}
+
+.info form .sub{
+    background-color: #32aeb7;
+    width: 223px;
+    height: 41px;
+    border: none;
+    outline: none;
+    margin: auto;
+    display: block;
+    color: #FFF;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+
+.content{
+    margin-top: 37px;
+    float: left;
+    width: 58%;
+    height: 500px;
+    background-color: #FFF;
+    margin-left: 37px;
+    padding: 12px;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+.content h2{
+    width: 90%;
+    height: 75px;
+    padding: 18px;
+    font-family: cursive;
+}
+
+.content h2 >span{
+    display: block;
+}
+
+.content h2 .items{
+    font-size: 12px;
+    color: #9a9292;
+    margin-left: 32px;
+    font-family: sans-serif;
+}
+
+.content .item_div{
+    width: 99%;
+    height: 108px;
+    border: solid 1px #DDD;
+}
+.content .name_div{
+    width: 21%;
+    float: left;
+    height: 100%;
+}
+.content .name_div h2{
+    width: 100%;
+    height: 30px;
+    padding: 0px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.content .name_div h3{
+    margin-left: 22px;
+    color: #32aeb7;
+    margin-top: 4px;
+}
+.content .name_div span{
+    margin-left: 22px;
+    font-size: 12px;
+    color: #9a9292;
+    font-family: sans-serif;
+}
+
+.content .photo_div{
+    width: 74%;
+    height: 100%;
+    margin-left: 231px;
+    text-align: right;
+}
+
+.content .photo_div img{
+    width: 100px;
+    height: 100%;
+    margin-left: -4px;
+    border-left: solid 1px #DDD;
+}
+
+
+
+.log_out{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 612px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log_out a{
+    width: 149px;
+    height: 52px;
+    background-color: #32aeb7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 11px;
+    color: #FFF;
+}
+
+footer{
+    width: 100%;
+    height: 550px;
+    background-color: #021f21;
+}
+
+footer >h2{
+    width: 100%;
+    height: 197px;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    font-family: sans-serif;
+    position: relative;
+    top: 43px;
+}
+
+footer .links{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .links a
+{
+    text-decoration: none;
+    margin-left: 37px;
+    color: #bdb9b9;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+footer .img_div{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .img_div img{
+    width: 123px;
+    border-radius: 105px;
+    border: solid 1px #32aeb7;
+}
+
+footer .img_social {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .img_social a{
+    margin-left: 14px;
+}
+footer .img_social a img{
+    width: 32px;
+}
+
+footer .text{
+    text-align: center;
+    color: #bdb9b9;
+    font-family: fangsong;
+}
+
+footer .text span{
+    color: #32aeb7;
+}

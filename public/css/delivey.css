@@ -1,0 +1,33 @@
+body{
+    background-color: #32d5e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFF;
+}
+.all{
+    width: 590px;
+    height: 350px;
+    margin-top: 67px;
+    text-align: center;
+}
+
+img {
+    width: 179px;
+}
+
+a{
+    width: 200px;
+    height: 47px;
+    background-color: #FFF;
+    display: block;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #32d5e0;
+    border-radius: 10px;
+}
+
+
